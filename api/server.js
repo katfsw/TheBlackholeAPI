@@ -10,7 +10,7 @@ server.use('/api/blackhole', submissionsRouter);
 
 const port = process.env.PORT || 5000;
 server.get('/', (req, res) => {
-    res.send(`Blachole API is Online @ https://localhost:${port}`)
+    res.send(`Blachole API is Online!`)
 })
 
 module.exports = server;
